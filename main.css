@@ -1,6 +1,6 @@
 html {
   box-sizing:border-box;
-  font-family:'Slabo 27px', monospace;
+  font-family:/*'Slabo 27px'*/'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
   color:#333;
 }
 
@@ -15,20 +15,10 @@ html, body {
 body {
   
   background: #7d7e7d; /* Old browsers */
-  background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-9 */
-  
-  /*background: #7eff83;
-  background: -moz-linear-gradient(top, #7eff83 0%, #77ef7d 44%, #66cc71 100%);
-  background: -webkit-linear-gradient(top, #7eff83 0%,#77ef7d 44%,#66cc71 100%);
-  background: linear-gradient(to bottom, #7eff83 0%,#77ef7d 44%,#66cc71 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7eff83', endColorstr='#66cc71',GradientType=0 );*/
-  
-  /*background: #50a3a2;
-  background: -webkit-linear-gradient(top left, #50a3a2 0%, #2eca7f 100%);
-  background: linear-gradient(to bottom right, #50a3a2 0%, #2eca7f 100%);*/
+  background: -moz-linear-gradient(top, #9d88cd 0%, #5c33ba 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #9d88cd 0%,#5c33ba 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #9d88cd 0%,#5c33ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d88cd', endColorstr='#5c33ba',GradientType=0 );
 }
 
 .container {
@@ -62,7 +52,7 @@ body {
 }
 
 .bg {
-  background:url(bg.jpg);
+  background:url(BigDipper.jpg);
   background-size:cover;
   background-position:center center;
   overflow:hidden;
@@ -97,14 +87,14 @@ body {
 
 .image {
   border-radius:50%;
-  border:4px solid white;
+  border:4px solid #9d88cd;
   width:140px;
   height:140px;
   text-indent:-9999px;
   position:absolute;
   left:144px;
   top:210px;
-  background:url(face.jpg);
+  background:url(Avatar.png);
   background-size:cover;
   background-position:center center;
   box-shadow: 5px 10px 20px rgba(100,100,100,.3);
@@ -119,7 +109,7 @@ h1, h3 {
 }
 
 .position {
-  color:#2eca7f;
+  color:#5c33ba;
   font-weight:normal;
 }
 
@@ -143,7 +133,7 @@ h1, h3 {
 }
 
 .social a:hover {
-  color:#2eca7f;
+  color:#9d88cd;
 }
 
 .heading:first-child {
@@ -151,8 +141,8 @@ h1, h3 {
 }
 
 .heading {
-  margin-top:70px;
-  padding-bottom:20px;
+  margin-top:50px;
+  padding-bottom:10px;
   border-bottom:1px solid #f4f4f4;
 }
 
@@ -160,6 +150,11 @@ h1, h3 {
   display:flex;
   align-items:center;
   margin:5px 0;
+}
+
+.info a {
+  text-decoration: none;
+  color:  black;
 }
 
 section.info {
